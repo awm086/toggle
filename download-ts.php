@@ -38,10 +38,10 @@ class ToggleHTTPClient extends Guzzle
     }
 }
 
-//  curl -v -u :api_token -X GET "https://toggl.com/reports/api/v2/details\?workspace_id=950575&since=2020-05-15&until=2020-07-14&user_agent\=api_test"
+//  curl -v -u 4ce66fd47803a241ec4f2c4a510f322a:api_token -X GET "https://toggl.com/reports/api/v2/details\?workspace_id=950575&since=2020-05-15&until=2020-07-14&user_agent\=api_test"
 // $options = [
 //     'base_uri' => 'https://toggl.com',
-//     'auth' => ['', 'api_token'],
+//     'auth' => ['4ce66fd47803a241ec4f2c4a510f322a', 'api_token'],
 //     'query' => [
 //         'user_agent' => 'api_test',
 //         'workspace_id' => '950575',
@@ -54,7 +54,7 @@ class ToggleHTTPClient extends Guzzle
 // $response = $client->get('/reports/api/v2/details',  $options);
 
 
-$myClient = new ToggleHTTPClient('', '950575');
+$myClient = new ToggleHTTPClient('4ce66fd47803a241ec4f2c4a510f322a', '950575');
 $report = $myClient->getDetailedReport('2020-06-15', '2020-07-12', '4431821');
 print_r($report);
 
