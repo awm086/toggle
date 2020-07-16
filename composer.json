@@ -1,0 +1,9 @@
+{
+    "name": "ali/timesheets",
+    "description": "process timesheets",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.10",
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}

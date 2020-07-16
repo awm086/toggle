@@ -1,0 +1,12 @@
+localvolumes/html/sites/default/files
+localvolumes/html/sites/default/settings.php
+# Ignore local settings
+localvolumes/html/sites/default/settings.local.php
+.DS_Store
+/.idea
+/localvolumes/content
+/localvolumes/files
+.bundler
+.sass-cache
+.bundle
+vendor
