@@ -35,6 +35,5 @@ function time_to_decimal($time) {
     $timeArr = explode(':', $time);
     print_r($timeArr);
     $decTime = ($timeArr[0]*60) + ($timeArr[1]) + ($timeArr[2]/60);
- 
     return $decTime/60;
 }
