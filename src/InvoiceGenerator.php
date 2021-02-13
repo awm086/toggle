@@ -109,7 +109,6 @@ class InvoiceGenerator
         return round($decTime / 60,3);
     }
 }
- $myClient = new ToggleHTTPClient('4ce66fd47803a241ec4f2c4a510f322a', '950575');
+ $myClient = new ToggleHTTPClient('XXXXX', '00000');
  $invoiceGenerator = new InvoiceGenerator($myClient);
- $invoiceGenerator->genInvoice(['since'=> '2020-07-13', 'until' => '2020-07-26', 'user' => '4431821']);
-echo "hello";
+ $invoiceGenerator->genInvoice(['since'=> '2020-11-30', 'until' => '2020-12-13', 'user' => '4431821']);

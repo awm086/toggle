@@ -83,10 +83,10 @@ class ToggleHTTPClient extends Guzzle implements InvoiceClient
 // $response = $client->get('/reports/api/v2/details',  $options);
 
 
-$myClient = new ToggleHTTPClient('4ce66fd47803a241ec4f2c4a510f322a', '950575');
-$report = $myClient->getDetailedReport('2020-06-15', '2020-07-12', '4431821');
-$data = $myClient->getData(['since' => '2020-06-15', 'until' => '2020-07-12', 'user' => '4431821' ]);
-print_r($data);
+// $myClient = new ToggleHTTPClient('4ce66fd47803a241ec4f2c4a510f322a', '950575');
+// $report = $myClient->getDetailedReport('2020-06-15', '2020-07-12', '4431821');
+// $data = $myClient->getData(['since' => '2020-06-15', 'until' => '2020-07-12', 'user' => '4431821' ]);
+// print_r($data);
 
 // echo $response->getStatusCode();
 // $json = json_decode($response->getBody());
